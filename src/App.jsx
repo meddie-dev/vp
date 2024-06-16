@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import pic from './assets/black-man (1).png'
+import song from './assets/Gangsta Rap -  Ni__a Ni__a Ni__a  [HQ].mp3'
+
 import './App.css'
 
 function App() {
@@ -9,9 +12,9 @@ function App() {
   return (
     <>
       <div>
-        <img style={{ width: '100px'}} src={import.meta.env.BASE_URL + "/assets/black-man (1).png"} alt="" />
+        <img style={{ width: '100px'}} src={pic} alt="" />
         <p>Hi Nigger!</p>
-        <audio src={import.meta.env.BASE_URL + "/assets/Gangsta Rap -  Ni__a Ni__a Ni__a  [HQ].mp3"} controls autoPlay loop></audio>
+        <audio src={song} controls autoPlay loop></audio>
       </div>
     </>
   )
