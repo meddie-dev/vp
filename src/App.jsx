@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <div>
-        <img style={{ width: '100px'}} src={import.meta.env.BASE_URL + "/assets/black-man (1).png"} alt="" />
+        <img style={{ width: '100px'}} src={import.meta.env.BASE_URL + "./assets/black-man (1).png"} alt="" />
         <p>Hi Nigger!</p>
-        <audio src={import.meta.env.BASE_URL + "/assets/Gangsta Rap -  Ni__a Ni__a Ni__a  [HQ].mp3"} controls autoPlay loop></audio>
+        <audio src={import.meta.env.BASE_URL + "./assets/Gangsta Rap -  Ni__a Ni__a Ni__a  [HQ].mp3"} controls autoPlay loop></audio>
       </div>
     </>
   )
